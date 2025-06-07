@@ -73,7 +73,7 @@ weather-dashboard/
 ├── package.json                    # Project metadata and scripts
 ├── package-lock.json               # Dependency lock file
 ├── README.md                       # Project documentation (this file)
-
+```
 
 
 # React + Vite
