@@ -47,7 +47,9 @@ Create a .env file in the root directory:
 # Run the App
 ### npm run dev
 
-# Project Structure
+## Project Structure
+
+```bash
 weather-dashboard/
 ├── public/                         # Public static files
 ├── src/                            # Source code
@@ -57,12 +59,21 @@ weather-dashboard/
 │   ├── componenta/                 # Components folder
 │   │   └── Weather.jsx             # Weather component with API logic
 │   ├── assets/
+│   │   └── pictures/               # Weather icons (clear, cloud, rain, etc.)
+│       ├── search.png
+│       ├── clear.png
+│       ├── rain.png
+│       ├── drizzle.png
+│       ├── snow.png
+│       ├── humidity.png
+│       └── wind.png
 ├── .env                            # Environment file for API keys (not committed)
 ├── index.html                      # HTML template used by Vite
 ├── vite.config.js                  # Vite configuration file
 ├── package.json                    # Project metadata and scripts
 ├── package-lock.json               # Dependency lock file
 ├── README.md                       # Project documentation (this file)
+
 
 
 # React + Vite
